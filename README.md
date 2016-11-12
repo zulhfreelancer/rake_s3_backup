@@ -11,3 +11,9 @@ A Ruby rake task to backup all files from bucket A to bucket B in S3 with DateTi
 #### Need .env file sample?
 
 [Here you go](https://gist.github.com/anonymous/01d1ef27afb5c53be89bbf5b254d9fb3)
+
+#### Heroku Scheduler example
+
+![](http://i.imgur.com/YO5k99M.png)
+
+Just put `rake backup_s3` and select the frequency you preferred.
