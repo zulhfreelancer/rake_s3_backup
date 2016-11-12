@@ -5,7 +5,8 @@ A Ruby rake task to backup all files from bucket A to bucket B in S3 with DateTi
 #### Important
 
 - You don't need web or worker dyno this. You just need [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler).
-- [How to create AWS IAM user with S3 access?](https://www.youtube.com/watch?v=p4ZkTtjnWgM) - just watch until 1:40 and click `Download credentials` button that you see on the screen
+- [How to create AWS IAM user with S3 access?](https://www.youtube.com/watch?v=p4ZkTtjnWgM) - just watch until 1:40 and click `Download credentials` button that you see on the screen.
+- On Heroku, you need to add one more config variable name `AWS_REGION`. But it's not required in local/development.
 
 #### Need .env file sample?
 
