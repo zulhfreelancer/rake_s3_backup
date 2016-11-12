@@ -9,4 +9,4 @@ A Ruby rake task to backup all files from bucket A to bucket B in S3 with DateTi
 
 #### Need .env file sample?
 
-[Here you go](https://gist.github.com/anonymous/0f3b371d199fa3df7176112c0f5d8d95)
+[Here you go](https://gist.github.com/anonymous/01d1ef27afb5c53be89bbf5b254d9fb3)
